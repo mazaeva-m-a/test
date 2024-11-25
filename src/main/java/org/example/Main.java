@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        printThreeWords();
+        plusMinus(-10);
     }
 //практическая 4
     //1
@@ -37,9 +37,11 @@ public class Main {
         int c = 99;
         if (c <= 0) {
             System.out.println("Красный");
-        } else if (c >= 1 && c <= 100) {
+        }
+        else if (c >= 1 && c <= 100) {
             System.out.println("Желтый");
-        } else if (c >= 101) {
+        }
+        else if (c >= 101) {
             System.out.println("Зеленый");
         }
 
@@ -56,17 +58,17 @@ public class Main {
 
     //5
     public static void summaPod(int a, int b) {
-        boolean resalt;
+        boolean arr;
         int c = a + b;
         if (c >= 10 && c <= 20) {
-            resalt = true;
-        } else resalt = false;
-        System.out.println(resalt);
+            arr = true;
+        } else arr = false;
+        System.out.println(arr);
     }
 
     //6
     public static void minusPlus(int a) {
-        boolean resalt;
+        boolean arr;
         if (a >= 0) {
             System.out.println("Положительное");
         } else System.out.println("Отрицательное");
@@ -74,11 +76,11 @@ public class Main {
 
     //7
     public static void plusMinus(int a) {
-        boolean resalt;
+        boolean arr;
         if (a >= 0) {
-            resalt = false;
-        } else resalt = true;
-        System.out.println(resalt);
+            arr = false;
+        } else arr = true;
+        System.out.println(arr);
     }
 
     //8
@@ -90,7 +92,7 @@ public class Main {
 
     //9
     public static void visGod(int a) {
-        boolean resalt;
+        boolean arr;
         if ((a % 4 == 0 && a % 100 != 0) || (a % 400 == 0)) {
             System.out.println("true");
         } else System.out.println("false");
@@ -146,13 +148,7 @@ public class Main {
         }
     }
 
-    //14
-    private static void VolLen(int len, int initialValue) {
-        int[] arr = new int[145];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = initialValue;
-        }
-    }
+
 }
 
 
