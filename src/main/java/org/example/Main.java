@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args){
-        plusMinus(-5);
+     printColor();
     }
 
         //1
@@ -17,18 +17,13 @@ public class Main {
 
         //2
         public static void checkSumSign () {
-            int a, b, c;
-            a = 10;
-            b = -15;
-            c = a + b;
-            if (c >= 0) {
+        int a = 10;
+        int b = 18;
+        if (a+b >= 0) {
                 System.out.println("Сумма положительная");
             }
-            if (c < 0) {
-                System.out.println("Сумма отрицательная");
-            }
-
-
+        else
+            System.out.println("Сумма отрицательная");
         }
 
         //3
