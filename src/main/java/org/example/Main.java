@@ -1,12 +1,12 @@
 package org.example;
 
-import java.util.Arrays;
+import
 
 public class Main {
     public static void main(String[] args) {
         plusMinus(-10);
     }
-//практическая 4
+
     //1
 
     public static void printThreeWords() {
