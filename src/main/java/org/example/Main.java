@@ -1,11 +1,10 @@
 package org.example;
 
 import java.util.Arrays;
-import java.util.Locale;
 
 public class Main {
-    public static void main(String[] args) {
-
+    public static void main(String[] args){
+        plusMinus(-5);
     }
 
         //1
@@ -50,18 +49,16 @@ public class Main {
         public static void compareNumbers () {
             int a = 80;
             int b = 125;
-            if (a >= b) {
-                System.out.println("a>=b");
-            } else System.out.println("a<b");
+            if(a >= b) System.out.println("a>=b");
+            else System.out.println("a<b");
+
         }
 
         //5
         public static void summaPod ( int a, int b){
             boolean arr;
             int c = a + b;
-            if (c >= 10 && c <= 20) {
-                arr = true;
-            } else arr = false;
+            arr = c >= 10 && c <= 20;
             System.out.println(arr);
         }
 
@@ -76,9 +73,8 @@ public class Main {
         //7
         public static void plusMinus ( int a){
             boolean arr;
-            if (a >= 0) {
-                arr = false;
-            } else arr = true;
+            if (a >= 0) arr = false;
+                else arr = true;
             System.out.println(arr);
         }
 
