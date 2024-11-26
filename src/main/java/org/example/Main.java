@@ -1,13 +1,14 @@
 package org.example;
 
 import java.util.Arrays;
+import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
 
     }
 
-    //1
+        //1
 
         public static void printThreeWords () {
             System.out.println("Orange");
@@ -145,10 +146,10 @@ public class Main {
                 System.out.println();
             }
         }
-
-
-
     }
+
+
+
 
 
 
